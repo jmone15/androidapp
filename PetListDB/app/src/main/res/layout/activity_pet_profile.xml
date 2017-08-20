@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/petImageMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/pet_information"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:background="#F5D0A9"
+        android:textColor="#3B240B"
+        android:textStyle="bold" />
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F7BE81">
+
+        <TextView
+            android:id="@+id/dogNameText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="10dip"
+            android:paddingLeft="5dp"
+            android:text="@string/name"
+            android:textColor="#8A4B08"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sex"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="10dip"
+            android:text="@string/sex"
+            android:textColor="#8A4B08"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F5D0A9">
+
+        <TextView
+            android:id="@+id/dateOfBirth"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="10dip"
+            android:textColor="#8A4B08"
+            android:text="@string/date_of_birth"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="10dip"
+            android:textColor="#8A4B08"
+            android:text="@string/breed_profile"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F7BE81">
+
+        <TextView
+            android:id="@+id/chipId"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="10dip"
+            android:textColor="#8A4B08"
+            android:text="@string/chip_id"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pedigree"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="10dip"
+            android:textColor="#8A4B08"
+
+            android:text="@string/distiguishing_marks"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F5D0A9">
+
+        <TextView
+            android:id="@+id/color"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="10dip"
+            android:textColor="#8A4B08"
+            android:text="@string/colour_profile"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F7BE81">
+
+        <TextView
+            android:id="@+id/owner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="10dip"
+            android:textColor="#8A4B08"
+            android:text="@string/owner"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ownerAddress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="10dip"
+            android:textColor="#8A4B08"
+            android:text="@string/owner_address"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#F5D0A9">
+
+    <TextView
+        android:id="@+id/ownerPhone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:padding="10dip"
+        android:textColor="#8A4B08"
+        android:text="@string/owner_phone"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F7BE81">
+
+        <TextView
+            android:id="@+id/vetName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="10dip"
+            android:textColor="#8A4B08"
+            android:text="@string/vet_name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/vetAddress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="10dip"
+            android:textColor="#8A4B08"
+            android:text="@string/vet_address"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F5D0A9">
+
+        <TextView
+            android:id="@+id/vetPhone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="10dip"
+            android:textColor="#8A4B08"
+            android:text="@string/vet_phone"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/comments"
+        android:padding="10dp"
+        android:background="#F7BE81"
+        android:textColor="#8A4B08"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        android:layout_weight="1" />
+
+
+</LinearLayout>
+</ScrollView>

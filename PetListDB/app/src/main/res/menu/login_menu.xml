@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Login"
+        android:orderInCategory="100"
+        android:title="@string/login" />
+
+    <item
+        android:id="@+id/Logout"
+        android:orderInCategory="100"
+        android:title="@string/logout" />
+
+    <item
+        android:id="@+id/AddPet"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_add_circle_outline_black_24dp"
+        android:title="@string/add_pet" />
+
+    <item
+        android:id="@+id/EditPet"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_remove_circle_outline_black_24dp"
+        android:title="@string/edit_pet" />
+
+    <item
+        android:id="@+id/DeletePet"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_create_black_24dp"
+        android:title="@string/delete_pet" />
+
+</menu>
